@@ -4,7 +4,6 @@ The Handwritten Digit Recognition is a CNN (Convolutional Neural Network) traine
 # How does this work?
 First, the program reads all images, which is classified into 10 different folders (about 37000 images in total). Then, the network trains itself. After the network is trained, you can test the network by drawing your number in a Tkinter window. When you finish drawing, Tkinter will create a temporary .jpg file, and then the network will predict your number based on that temporary .jpg file. 
 
-# How do I use this?
-Simply do a `pip install -r requirements.txt`. Then, run it by going `python Keras_CNN_HandNumbers.py`.
+
 
 
